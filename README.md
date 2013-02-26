@@ -4,22 +4,22 @@
 
 ## CPUG
 
-Following the Clojure Paris User Group meeting, here are the instructions to get started to hack on WebFUI:
+#Following the Clojure Paris User Group meeting, here are the instructions to get started to hack on WebFUI:
 
-- Clone the repo
+1. Clone the repo
 
 ```sh
 git clone https://github.com/drcode/webfui.git
 ```
 
-- In one terminal run the auto compile mode
+2. In one terminal run the auto compile mode
 
 ```sh
 cd /webfui/webfui-examples
 lein cljsbuild
 ```
 
-- In a 2nd terminal run the server that will run the server that will
+3. In a 2nd terminal run the server that will run the server that will
   serve the generated Javascript
 
 ```sh
@@ -27,18 +27,18 @@ cd /webfui/webfui-examples
 lein run
 ```
 
-- Open a browser on http://localhost:8080
+4. Open a browser on http://localhost:8080
 
 
-- Open one of the example files
+5. Open one of the example files
 
 ```sh
 emacs src-cljs/add_two_numbers/core.cljs
 ```
 
-- Update it & reload your browser
+6. Update it & reload your browser
 
-Happy `M-x hacking` !
+**Happy `M-x hacking` !**
 
 
 ## Philosophy of WebFUI
