@@ -4,6 +4,8 @@
 
 ## CPUG
 
+Following the Clojure Paris User Group meeting, here are the instructions to get started to hack on WebFUI:
+
 - Clone the repo
 
 ```sh
@@ -35,6 +37,8 @@ emacs src-cljs/add_two_numbers/core.cljs
 ```
 
 - Update it & reload your browser
+
+Happy `M-x hacking` !
 
 
 ## Philosophy of WebFUI
