@@ -2,6 +2,41 @@
 
 ![logo](http://lisperati.com/webfui/logo.png)
 
+## CPUG
+
+- Clone the repo
+
+```sh
+git clone https://github.com/drcode/webfui.git
+```
+
+- In one terminal run the auto compile mode
+
+```sh
+cd /webfui/webfui-examples
+lein cljsbuild
+```
+
+- In a 2nd terminal run the server that will run the server that will
+  serve the generated Javascript
+
+```sh
+cd /webfui/webfui-examples
+lein run
+```
+
+- Open a browser on http://localhost:8080
+
+
+- Open one of the example files
+
+```sh
+emacs src-cljs/add_two_numbers/core.cljs
+```
+
+- Update it & reload your browser
+
+
 ## Philosophy of WebFUI
 
 The goal of WebFUI is to let you do client-side Web programming in ClojureScript without having to ever deal with the DOM. Instead, all DOM is generated in realtime from a Clojure atom that contains just "plain old data" (called [EDN](https://github.com/edn-format/edn) in Clojure.) This "DOM EDN" is kept synchronized with a state atom that also contains EDN, where all the state for your program is kept.
